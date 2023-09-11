@@ -1,0 +1,18 @@
+.rating-item-li-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star-style {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.filter-rating-description {
+  font-family: Roboto;
+  color: #64748b;
+}
+
+.active-rating-style {
+  color: #0967d2;
+}

@@ -1,0 +1,11 @@
+.filter-group-item-style {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.active-category-item {
+  color: #0967d2;
+}

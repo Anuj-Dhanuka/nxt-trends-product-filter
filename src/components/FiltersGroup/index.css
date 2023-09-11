@@ -1,0 +1,70 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.filter-input-search-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-style {
+  background-color: #f1f5f9;
+  border: 0px;
+  padding: 5px 16px 5px 16px;
+  font-family: Roboto;
+  outline: none;
+  height: 30px;
+  width: 250px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.filter-search-icon-container {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.filter-search-icon-style {
+  font-size: 12px;
+}
+
+.category-title-heading {
+  margin-top: 36px;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.filter-ul-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clear-filter-btn {
+  font-family: Roboto;
+  background-color: transparent;
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  font-size: 12px;
+  padding: 5px 16px 5px 16px;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 16px;
+}
